@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background: url(./bg-body.jpg);
+}
+/* Header Area Start */
+.header {
+  background: url(./bg-header.jpg);
+  height: 125px;
+  overflow: hidden;
+  display: flex;
+}
+.logo11 {
+  margin-top: 35px;
+  margin-left: 8rem;
+}
+
+.header11 {
+  margin-left: auto;
+  padding-top: 5rem;
+  padding-right: 40px;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-right: 30px;
+}
+
+.header a.active {
+  color: yellow;
+}
+/* Main area Start */
+.main {
+  height: 400px;
+
+  background-image: linear-gradient(315deg, #f8ef42 0%, #3db62d 74%);
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+}
+.main div p {
+  color: white;
+  font-size: 24px;
+  line-height: 40px;
+  margin-left: 25rem;
+  font-family: sans-serif;
+}
+.main div h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 35px;
+  margin-left: 25rem;
+  font-family: sans-serif;
+}
+.main div h2 span {
+  color: yellow;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tree {
+  float: left;
+  margin: auto;
+}
+.cards {
+  display: flex;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 25rem;
+}
+.card1 {
+  width: 500px;
+}
+.card2 {
+  width: 500px;
+}
+.program {
+  display: flex;
+  width: 500px;
+}
+.pro2 {
+  margin-top: 69px;
+}
+.card3 {
+  display: flex;
+  margin-left: 25rem;
+}
+.blog ul li {
+  list-style-type: none;
+}
+.footer {
+  height: 200px;
+  background: url(./bg-footer.jpg);
+  display: flex;
+}
+
+.footer1 {
+  line-height: 30px;
+  padding-top: 30px;
+  padding-left: 10rem;
+}
+.footer2 {
+  width: 500px;
+  padding-left: 10rem;
+  padding-top: 30px;
+}
+
+.footer2 p span {
+  padding-left: 400px;
+}
+.footer3 {
+  padding-left: 10rem;
+  padding-top: 30px;
+  line-height: 30px;
+}
